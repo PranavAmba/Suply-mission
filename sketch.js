@@ -38,7 +38,6 @@ function setup() {
 
 	packageBody = Bodies.circle(width/2 , 200 , 5 ,options);
 	World.add(world, packageBody);
-	keyPressed();
 	
 
 	//Create a Ground
